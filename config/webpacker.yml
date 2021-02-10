@@ -16,7 +16,10 @@ default: &default
   cache_manifest: false
 
   # Extract and emit a css file
-  extract_css: false
+  # TRICKY: VERY important and easy to miss - without this
+  # `stylesheet_pack_tag("application", ...)` will fail silently and your CSS
+  # will not be loaded alongside the page
+  extract_css: true
 
   static_assets_extensions:
     - .jpg
