@@ -11,7 +11,11 @@ html {
 }
 
 .container {
+  height: 100vh;
   margin: 0 auto;
   max-width: 62em;
   min-width: none;
+
+  // TRICKY: ensure all child nodes' margins stay inside container
+  padding: 1px;
 }
