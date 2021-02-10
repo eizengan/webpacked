@@ -16,10 +16,9 @@ body {
 
 .container {
   background-color: #fff;
-  height: 100vh;
   margin: 0 auto;
+  min-height: 100vh;
   max-width: 62em;
-  min-width: none;
 
   // TRICKY: ensure all child nodes' margins stay inside container
   padding: 1px;
