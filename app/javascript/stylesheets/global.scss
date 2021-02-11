@@ -21,7 +21,7 @@ body {
   max-width: 62em;
 
   // TRICKY: ensure all child nodes' margins stay inside container
-  padding: 1px;
+  padding: 1px 1px 3em;
 }
 
 section {
