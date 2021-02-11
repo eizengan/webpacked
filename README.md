@@ -12,3 +12,4 @@ JS:
 - [4cd6d14](https://github.com/eizengan/webpacked/commit/4cd6d14) uses an image within SCSS
 - [121ae3f](https://github.com/eizengan/webpacked/commit/121ae3f) shows a way to supply vendored code
 - [609bc83](https://github.com/eizengan/webpacked/commit/609bc83) uses an image within JS
+- [5ba8a87](https://github.com/eizengan/webpacked/commit/5ba8a87) creates a React component with the default integration
